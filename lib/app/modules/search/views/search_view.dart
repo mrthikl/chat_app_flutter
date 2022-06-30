@@ -43,7 +43,7 @@ class SearchView extends GetView<SearchController> {
             centerTitle: true,
             leading: IconButton(
               onPressed: () => Get.back(),
-              icon: Icon(Icons.arrow_back_ios),
+              icon: Icon(Icons.arrow_back),
             ),
             flexibleSpace: Padding(
               padding:

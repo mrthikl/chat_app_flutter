@@ -1,3 +1,4 @@
+import 'package:chat_app/app/routes/app_pages.dart';
 import 'package:flutter/material.dart';
 
 import 'package:get/get.dart';
@@ -57,7 +58,7 @@ class ProfileView extends GetView<ProfileController> {
                 child: Column(
                   children: [
                     ListTile(
-                      onTap: () {},
+                      onTap: () => Get.toNamed(Routes.UPDATE_STATUS),
                       leading: Icon(Icons.note_add_outlined),
                       title:
                           Text("Update Status", style: TextStyle(fontSize: 22)),
